@@ -1,0 +1,52 @@
+{
+  "comSetup-10": {
+    "comSetup-10": {
+        "obsID": "31",
+        "obsAlias": 1,
+        "timestamp": 1,
+        "apn": "31",
+        "username": "31",
+        "password": "31",
+        "obsUDPPort": 1,
+        "url": {
+            "hostname": "31",
+            "path": "31"
+        },
+        "bosSMSFallback": {
+            "msisdn": []
+        }
+    },
+    ".metaData": {
+        "obsID": "OCTET STRING:<=63",
+        "obsAlias": "INTEGER:<=4294967295",
+        "timestamp": "INTEGER:<=4294967295",
+        "apn": "OCTET STRING:<=48",
+        "username": "OCTET STRING:<=15",
+        "password": "OCTET STRING:<=7",
+        "obsUDPPort": "INTEGER:<=65335",
+        "url": {
+            "hostname": "OCTET STRING:<=60",
+            "path": "OCTET STRING:<=77"
+        },
+        "bosSMSFallback": {
+            "msisdn": "SEQUENCE OF:<=15"
+        }
+    },
+    ".metaDataName": "1_1_ComSetup-10"
+  },
+  "comSetupResp-10": {
+    "comSetupResp-10": {
+        "obsAlias": 1,
+        "timestamp": 1,
+        "status": 1,
+        "errorMsg": "31"
+    },
+    ".metaData": {
+        "obsAlias": "INTEGER:<=4294967295",
+        "timestamp": "INTEGER:<=4294967295",
+        "status": "INTEGER:<=255",
+        "errorMsg": "OCTET STRING:optional:<=63"
+    },
+    ".metaDataName": "1_2_ComSetupResp-10"
+  }  
+}
